@@ -1,0 +1,60 @@
+./main-opencv input/CoQuan.mov input/CoQuanMV.txt input/CoQuanBitSize.txt 100
+./main-opencv input/ND.mov input/NgoaiDuongMV.txt input/NgoaiDuongBitSize.txt 84 //68
+./main-opencv input/TrongNha.mov input/TrongNhaMV.txt input/TrongNhaBitSize.txt 80
+
+./main-opencv input/CongCoQuan.mov input/CongCoQuanMV.txt input/CongCoQuanBitSize.txt 50 92
+./main-opencv input/DonCongAn_02.mov input/DonCongAn_02MV.txt input/DonCongAn_02BitSize.txt 85
+./main-opencv input/T32CL2_0310_1.mov input/T32CL2_0310_1MV.txt input/T32CL2_0310_1BitSize.txt 117
+./main-opencv input/CuaHang_01.mov input/CuaHang_01MV.txt input/CuaHang_01BitSize.txt 66
+./main-opencv input/BaiDeXe_01.mov input/BaiDeXe_01MV.txt input/BaiDeXe_01BitSize.txt 77
+
+
+kháo sat ảnh huong chuỷen canh
+khao sat anh huong nhieu
+
+
+làm trang web với anh hoà
+
+
+./main-opencv input1/CLH11_56_IOS.mov input1/CLH11_56MV.txt input1/CLH11_56BitSize.txt 58
+./main-opencv input1/CLH11_1172_IOS.mov input1/CLH11_1172MV.txt input1/CLH11_1172BitSize.txt 62
+./main-opencv input1/CLH11_1196_IOS.mov input1/CLH11_1196MV.txt input1/CLH11_1196BitSize.txt 59
+./main-opencv input1/CLH12_2_IOS.mov input1/CLH12_2MV.txt input1/CLH12_2BitSize.txt 63 
+./main-opencv input1/CLH12_10_IOS.mov input1/CLH12_10MV.txt input1/CLH12_10BitSize.txt 63
+./main-opencv input1/CLH12_12_IOS.mov input1/CLH12_12MV.txt input1/CLH12_12BitSize.txt 62
+./main-opencv input1/CLH12_180_IOS.mov input1/CLH12_180MV.txt input1/CLH12_180BitSize.txt 61
+
+./main-opencv input1/GVO1_3_IOS.mov input1/GVO1_3MV.txt input1/GVO1_3BitSize.txt
+./main-opencv input1/GVO1_10_IOS.mov input1/GVO1_10MV.txt input1/GVO1_10BitSize.txt
+./main-opencv input1/GVO1_222_IOS.mov input1/GVO1_222MV.txt input1/GVO1_222BitSize.txt
+
+
+./main-opencv input1/T32CL2_1_IOS.mov input1/T32CL2_1MV.txt input1/T32CL2_1BitSize.txt 135
+./main-opencv input1/T32CL2_10_IOS.mov input1/T32CL2_10MV.txt input1/T32CL2_10BitSize. 68 
+./main-opencv input1/T32CL2_19_IOS.mov input1/T32CL2_19MV.txt input1/T32CL2_19BitSize.txt 95 
+./main-opencv input1/T32CL2_37_IOS.mov input1/T32CL2_37MV.txt input1/T32CL2_37BitSize.txt 92
+
+
+./main-opencv input2/CLH11_56_IOS.mov input2/CLH11_56MV.txt input2/CLH11_56BitSize. 58
+./main-opencv input2/CLH11_102_IOS.mov input2/CLH11_102MV.txt input2/CLH11_102BitSize.txt 53
+
+./main-opencv input2/GVO1_10_IOS.mov input2/GVO1_10MV.txt input2/GVO1_10BitSize.txt 69
+./main-opencv input2/GVO1_222_IOS.mov input2/GVO1_222MV.txt input2/GVO1_222BitSize.txt 68
+
+./main-opencv input2/GVO2_100_IOS.mov input2/GVO2_100MV.txt input2/GVO2_100BitSize.txt 57
+./main-opencv input2/GVO2_141_IOS.mov input2/GVO2_141MV.txt input2/GVO2_141BitSize.txt 89
+
+./main-opencv input2/GVO2_297_IOS.mov input2/GVO2_297MV.txt input2/GVO2_297BitSize.txt 60
+./main-opencv input2/GVO2_141_IOS.mov input2/GVO2_141MV.txt input2/GVO2_141BitSize.txt 89
+
+
+./main-opencv input2/NEM2_25_IOS.mov input2/NEM2_25MV.txt input2/NEM2_25BitSize.txt
+./main-opencv input2/NEM2_36_IOS.mov input2/NEM2_36MV.txt input2/NEM2_36BitSize.txt
+
+
+
+
+
+
+
+

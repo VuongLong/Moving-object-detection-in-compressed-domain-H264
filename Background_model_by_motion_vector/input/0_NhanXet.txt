@@ -1,0 +1,9 @@
+﻿Video TrongNha.avi: Đặt ngưỡng threshold = {80, 100, 110, 120, 150} với size_min = 5
+	Hiệu quả tốt nhất với ngưỡng 110. Với ngưỡng cao hơn thì vật chuyển động bị mất phần ở giữa nhưng bóng sẽ mờ khử được. Nếu ngưỡng thấp hơn thì vật hiển thị đầy đủ hơn nhưng bóng hiện rõ.
+
+Video CoQuan.avi: Đặt ngưỡng threshold = {110, 120, 150, 140, 170} với size_min = 5
+	Hiệu quả tốt nhất với ngưỡng 110. Với ngưỡng cao hơn thì vật chuyển động bị mất góc.
+
+Video NgoaiDuong.avi: Đặt ngưỡng threshold = {70, 80, 100} với size_min = 5
+				 threshold = {20} với size_min = 15
+	Hiệu quả tốt nhất với ngưỡng 80. Với ngưỡng cao hơn thì vật chuyển động như ô tô bị mất phần ở giữa. Nếu nhỏ hơn thì xuất hiện nhiều nhiễu trên toàn bộ frame.
