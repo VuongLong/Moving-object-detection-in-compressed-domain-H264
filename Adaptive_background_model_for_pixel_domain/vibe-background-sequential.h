@@ -1,41 +1,3 @@
-/**
-    @file vibe-background-sequential.h
-    @brief Interface for the ViBe library
-
-    @author Marc Van Droogenbroeck 
-
-    @date July 2014
-
-    @details
-
-  Full documentation is available online at:
-     http://www.ulg.ac.be/telecom/research/vibe/doc
-
-  All technical details are available in the following paper:
-<em>O. Barnich and M. Van Droogenbroeck. ViBe: A universal background subtraction algorithm for video sequences. IEEE Transactions on Image Processing, 20(6):1709-1724, June 2011.</em>
-
-\verbatim
-BiBTeX information
-
-  @article{Barnich2011ViBe,
-  title = {{ViBe}: A universal background subtraction algorithm for video sequences},
-  author = {O. Barnich and M. {Van Droogenbroeck}},
-  journal = {IEEE Transactions on Image Processing},
-  volume = {20},
-  number = {6},
-  pages = {1709-1724},
-  month = {June},
-  year = {2011},
-  keywords = {ViBe, Background, Background subtraction, Segmentation, Motion, Motion detection},
-  pdf = {http://orbi.ulg.ac.be/bitstream/2268/145853/1/Barnich2011ViBe.pdf},
-  doi = {10.1109/TIP.2010.2101613},
-  url = {http://hdl.handle.net/2268/145853}
-  }
-\endverbatim
-
-See
-\cite Barnich2011ViBe
-*/
 
 #ifndef _VIBE_SEQUENTIAL_H_
 #define _VIBE_SEQUENTIAL_H_
@@ -172,65 +134,6 @@ uint32_t libvibeModel_Sequential_GetUpdateFactor(const vibeModel_Sequential_t *m
  * @return
  */
 int32_t libvibeModel_Sequential_Free(vibeModel_Sequential_t *model);
-
-/**
- * The two following functions allocate the required memory according to the
- * model parameters and the dimensions of the input images.
- * You must use the "C1R" function for grayscale images and the "C3R" for color
- * images. 
- * These 2 functions also initialize the background model using the content
- * of *image_data which is the pixel buffer of the first image of your stream.
- */
-// -------------------------  Single channel images ----------------------------
-/**
- *
- * @param model The data structure with ViBe's background subtraction model and parameters.
- * @param image_data
- * @param width
- * @param height
- * @return
- */
-int32_t libvibeModel_Sequential_AllocInit_8u_C1R(
-  vibeModel_Sequential_t *model,
-  const uint8_t *image_data,
-  const uint32_t width,
-  const uint32_t height
-);
-
-/* These 2 functions perform 2 operations:
- *   - they classify the pixels *image_data using the provided model and store
- *     the results in *segmentation_map.
- *   - they update *model according to these results and the content of
- *     *image_data.
- * You must use the "C1R" function for grayscale images and the "C3R" for color
- * images.
- */
-/**
- *
- * @param model The data structure with ViBe's background subtraction model and parameters.
- * @param image_data
- * @param segmentation_map
- * @return
- */
-int32_t libvibeModel_Sequential_Segmentation_8u_C1R(
-  vibeModel_Sequential_t *model,
-  const uint8_t *image_data,
-  uint8_t *segmentation_map,
-  uint8_t *t
-);
-
-/**
- *
- * @param model The data structure with ViBe's background subtraction model and parameters.
- * @param image_data
- * @param updating_mask
- * @return
- */
-int32_t libvibeModel_Sequential_Update_8u_C1R(
-  vibeModel_Sequential_t *model,
-  const uint8_t *image_data,
-  uint8_t *updating_mask
-);
 
 // -------------------------  Three channel images -----------------------------
 /**
