@@ -73,7 +73,7 @@ struct vibeModel_Sequential
   uint32_t updateFactor;
 
   /* Storage for the history. */
-  uint8_t *historyImage;
+  uint8_t *historyImage;  //20 Backgrounds
   uint32_t lastHistoryImageSwapped;
 
   /* Buffers with random values. */
